@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Geometry from './Geometry';
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>React App</h1>
+    <Geometry />
   </React.StrictMode>,
   document.getElementById('root')
 );
